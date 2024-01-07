@@ -7,7 +7,7 @@ body{
 .header{
   background-image: url('../images/banner/banner3.png');
   background-repeat: no-repeat;
-  background-size: scroll;
+  background-size: cover;
   background-position: center;
 }
 
@@ -49,3 +49,36 @@ body{
   margin-bottom: 5px;
   float: right;
 }
+
+/* failure section related styles */
+
+.failure{
+  display: flex;
+  margin: 200px 200px;
+  justify-content: space-between;
+}
+
+.pic{
+  margin-right: 50px;
+}
+
+.failure-contant-title{
+  color: #151414;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 230px 30px 30px 50px;
+}
+
+.failure-contant-des{
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-left: 50px;
+}
+
+.list{
+  margin-left: 50px;
+  color: #444343;
+}
+
